@@ -24,7 +24,7 @@ $('#submit').on('click', function(event){
     event.preventDefault()
     let name = $('#nameInput').val();
     let comment = $('#commentInput').val();
-    $('.commentContainer').append(createCommentBox(name, comment));
+    $('.commentContainer').prepend(createCommentBox(name, comment));
     $('#nameInput').val("");
     $('#commentInput').val("");
 });
