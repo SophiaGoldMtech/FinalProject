@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  background-color: #f6f6f6;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#ogPost {
+  background-color: #fff;
+  padding: 5px 25px;
+  position: fixed;
+  top: 0;
+}
+
+#ogPost h1 {
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+#ogPostDisplayName {
+  margin-bottom: 0;
+  font-size: 20px;
+  padding: 30px 10px 10px 5px;
+}
+
+.commentContainer {
+  background-color: #eee;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.commentBox {
+  width: 100%;
+  background-color: #f6f6f6;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 20px 10px;
+}
+
+.commentBox:first-child {
+  margin-top: 170px;
+}
+
+.flexContainer {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+
+.displayName {
+  font-size: 15px;
+  color: #767676;
+  margin: 0;
+  padding: 10px 10px 0 10px;
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.text {
+  font-size: 25px;
+  margin: 0;
+  padding: 10px;
+  align-self: center;
+}
+
+i {
+  font-size: 50px;
+  align-self: center;
+  padding: 20px;
+}
+
+.editContainer {
+  display: flex;
+  color: #b9dde8;
+}
+
+.edit {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.delete {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.addComment {
+  position: fixed;
+  bottom: 0px;
+  background-color: #fff;
+  padding: 30px;
+}
+
+#commentInput {
+  width: 70%;
+  padding: 5px 5px;
+  font-size: 15px;
+  margin: 0 10px;
+}
+
+#nameInput {
+  padding: 5px 5px;
+  font-size: 15px;
+}
+
+.submit {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  color: #b9dde8;
+  font-size: 20px;
+}
+
+#submit {
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+  color: #b9dde8;
+  font-size: 20px;
+  width: 5%;
+  margin-left: 10px;
+}
+
+#editInput {
+  width: 80%;
+  padding: 5px;
+  margin: 5px 10px 0 0;
+}
+
+.editForm {
+  display: none;
+}
+
+.displayEdit .editForm {
+  display: initial;
+}
